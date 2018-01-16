@@ -1,29 +1,38 @@
-# emoji.ico
+<p align="center"> 
+<img src="/images/header.jpg">
+</p>
 
-:star_struck: *Using emojis to identify your repositories? emoji.icon beautifies your folder icons with emojis just like you would on Github.*
+:grin: *Using emojis to identify your repositories? emoji.icon beautifies your folder icons with emojis just like you would on Github.*
 
 As developers, we tend to use unique emojis in our repository description to make them memorable and stand out from the crowd.
 
-In the same aspect, *emoji.ico* :star_struck: was designed in such a way to make it easy to identify your repository folders in your file explorer by changing the default folder icons into emojis that you can easily identify.
+In the same aspect, *emoji.ico* :grin: was designed in such a way to make it easy to identify your repository folders in your file explorer by changing the default folder icons into emojis that you can easily identify.
 
 ![](/images/screenshot.JPG)
+<p align="center"> 
+<i>Before & After: My Github folders on File Explorer</i>
+</p>
 
 ## Installation on Windows
 
 1. git clone this repository 
+```
+git clone https://github.com/davzoku/emoji.ico.git
+```
 
 2. Find the ico that you wish to use. 
-	- ico contains the standard library of emoji. Files are named by their unicode identifiers. For example, :star_struck: is represented by `U+1F929` and the corresponding icon file is `1F929.ico`. You may use [emojipedia](https://emojipedia.org/) to find the unicode of the emoji you need.
-    - devicon contains icons for popular programming languages and dev tools
-    - gemoji contains github emojis
+	- **ico** contains the standard library of emoji. Files are named by their unicode identifiers. 
+    - For example, :grin: is represented by `U+1F601` and the corresponding icon file is `1F601.ico`. You may use [emojipedia](https://emojipedia.org/) to find the unicode of the emoji you need.
+    - **devicon** contains icons for popular programming languages and dev tools
+    - **gemoji** contains github emojis
     
-3. Copy the `desktop.ini` + the .ico into the folder you wish to customize. Change the .ico filename, ie `1F929.ico` to `emoji.ico`.
+3. Copy the `desktop.ini` and the .ico into the folder you wish to customize. Change the .ico filename, ie `1F601.ico` to `emoji.ico`.
 
 4. For the effect to take place, the folder requires a `read-only` file attribute. You can add this attribute by running `attrib +r path\folder` on command prompt/powershell.
 
 5. You may need to refresh the file explorer for the effect to take place. Otherwise, run `restart-explorer.bat` in the scripts folder to force restart file explorer and clear the icon cache.
 
-6. *(optional)* By customizing your folder icon, you will add additional files like `desktop.ini` and `emoji.ico` into your repository by default the next time you `git add` something. This may not be ideal if you collaborate with other people on other OS. You may consider to add the files into the `.gitignore`. 
+6. *(optional)* By customizing your folder icon, you will add additional files like `desktop.ini` and `emoji.ico` into your repository by default the next time you perform a `git add`. This may not be ideal if you collaborate with other people on other OS. You may consider to add the files into the `.gitignore` like this:
 
 ```
 /desktop.ini
@@ -39,7 +48,7 @@ If anyone managed to modify emoji.ico to work on other platforms, feel free to [
  
 ## Resources used
 
-+ [Twemoji](https://github.com/twitter/twemoji)
++ [twitter/twemoji](https://github.com/twitter/twemoji)
 	- emoji.ico uses the icon pack from [Twemoji](https://github.com/twitter/twemoji) which adheres to the **Unicode 10.0** spec and supports the **Emoji 5.0** spec.
 
     - It offers support for **2,685 emojis**, including skin tone and gender modifiers.
