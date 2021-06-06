@@ -49,9 +49,11 @@ If anyone managed to modify emoji.ico to work on other platforms, feel free to [
 ## Resources used
 
 + [twitter/twemoji](https://github.com/twitter/twemoji)
-	- emoji.ico uses the icon pack from [Twemoji](https://github.com/twitter/twemoji) which adheres to the **Unicode 10.0** spec and supports the **Emoji 5.0** spec.
+	- emoji.ico uses the icon pack from [Twemoji](https://github.com/twitter/twemoji) which adheres to the [Unicode 13.0 spec](https://unicode.org/versions/Unicode13.0.0/)  and supports the [Emoji 13.1 spec](https://www.unicode.org/reports/tr51/tr51-19.html).
 
-    - It offers support for **2,685 emojis**, including skin tone and gender modifiers.
+    - It offers support for **3,521 emojis**.
+
+    - Refer to [emojipedia](https://emojipedia.org/emoji-13.1/) for the newest addition in Emoji Version 13.1
     
 + [konpa/devicon](https://github.com/konpa/devicon)
 	- resources to represent programming languages, designing & development tools
